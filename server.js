@@ -14,7 +14,7 @@ app.get('/', function(req, res) {
 });
 
 app.get('/data', function(req, res) {
-  res.send(jsonData);
+  res.json(jsonData);
 });
 
 app.listen(3000, function() {
